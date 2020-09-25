@@ -7,6 +7,7 @@ type Config struct {
 
 // NewConfig ...
 func NewConfig() *Config {
-BindAddr:
-	":8080"
+	return &Config{
+		BindAddr: ":8080",
+	}
 }

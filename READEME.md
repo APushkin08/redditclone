@@ -1,1 +1,1 @@
-reddit clone on golang & js (react)
+reddit clone on golang (backend)

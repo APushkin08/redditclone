@@ -5,6 +5,7 @@ import (
 	"log"
 
 	"github.com/BurntSushi/toml"
+
 	"github.com/apushkin08/redditclone/internal/app/apiserver"
 )
 

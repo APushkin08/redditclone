@@ -1,6 +1,6 @@
 package apiserver
 
-import "github.com/apushkin08/redditclone/cmd/internal/app/store"
+import "github.com/apushkin08/redditclone/internal/app/store"
 
 // Config ...
 type Config struct {

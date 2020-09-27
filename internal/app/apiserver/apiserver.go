@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/apushkin08/redditclone/cmd/internal/app/store"
+	"github.com/apushkin08/redditclone/internal/app/store"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

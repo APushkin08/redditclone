@@ -6,7 +6,7 @@ import (
 
 	"github.com/apushkin08/redditclone/internal/app/store/sqlstore"
 	"github.com/gorilla/sessions"
-	_ "github.com/lib/pq" // ...
+	_ "github.com/lib/pq" // postgress driver
 )
 
 // Start ...
@@ -24,6 +24,7 @@ func Start(config *Config) error {
 	return http.ListenAndServe(config.BindAddr, srv)
 }
 
+// newDB ...
 func newDB(dbURL string) (*sql.DB, error) {
 	db, err := sql.Open("postgres", dbURL)
 	if err != nil {
